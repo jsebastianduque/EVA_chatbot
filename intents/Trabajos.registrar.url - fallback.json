@@ -1,0 +1,41 @@
+{
+  "id": "50bb79d3-d921-4a7d-9ec9-af8dfe1a8be3",
+  "name": "Trabajos.registrar.url - fallback",
+  "contexts": [
+    "apellidos-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Trabajosregistrarurl.Trabajosregistrarurl-fallback",
+      "affectedContexts": [
+        {
+          "name": "apellidos-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Debes ingresar un URL correcto"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

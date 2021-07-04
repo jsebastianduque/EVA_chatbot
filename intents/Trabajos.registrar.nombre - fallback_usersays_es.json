@@ -1,0 +1,80 @@
+[
+  {
+    "id": "12c4a73d-e2ed-4f63-baf7-110061d9d149",
+    "data": [
+      {
+        "text": "Carlos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "227324bd-857b-48e2-a140-2a485f78efd4",
+    "data": [
+      {
+        "text": "Diana",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ffca9c15-7808-490e-949e-319ac0105793",
+    "data": [
+      {
+        "text": "Sofia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3166be93-c56f-4829-8d76-4901d3c33e6d",
+    "data": [
+      {
+        "text": "Alejandra",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "77d349a9-e10f-488a-bef9-086d377eb7a1",
+    "data": [
+      {
+        "text": "Camilo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "725378c7-6e9a-4c0e-9d94-d576c57bb455",
+    "data": [
+      {
+        "text": "Luz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

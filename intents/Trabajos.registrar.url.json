@@ -1,0 +1,68 @@
+{
+  "id": "876f7eca-c0b4-4c7f-9582-40768a84387a",
+  "name": "Trabajos.registrar.url",
+  "auto": true,
+  "contexts": [
+    "apellidos-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "apellidos-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "de16f98f-6501-4b86-b044-58f7a44cff43",
+          "name": "archivol",
+          "required": false,
+          "dataType": "@sys.url",
+          "value": "$archivol",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bb49addf-d7dd-4d66-a9d3-130c698c6503",
+          "name": "url",
+          "required": true,
+          "dataType": "@sys.url",
+          "value": "$url",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

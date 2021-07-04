@@ -1,0 +1,54 @@
+[
+  {
+    "id": "fbd0af30-eae6-48a3-a481-911952d45b46",
+    "data": [
+      {
+        "text": "Estado de nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "293cd2f1-a074-4212-b094-05b836590e82",
+    "data": [
+      {
+        "text": "Consultar nota",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "191a9413-48b4-4e62-99c6-4157200a27f2",
+    "data": [
+      {
+        "text": "Estado de trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2d165950-6115-4403-b7cd-e3d85688a5a4",
+    "data": [
+      {
+        "text": "Consultar trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

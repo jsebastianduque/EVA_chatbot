@@ -1,0 +1,57 @@
+{
+  "id": "8909a031-ff66-48b5-a0a9-5b7da8a4d7e8",
+  "name": "Trabajos.registrar.nombre",
+  "auto": true,
+  "contexts": [
+    "Trabajosregistrar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nombres-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "75a19f16-108a-4c1f-83cd-4ddbe9384273",
+          "name": "nombres",
+          "required": true,
+          "dataType": "@nombres_estudiantes",
+          "value": "$nombres",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Vale, $nombres, ¿cuál es tu apellido?."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ffcf3c72-f073-4034-a19f-1203dc99fa67",
+  "name": "Trabajos.registrar.nombre - fallback",
+  "contexts": [
+    "Trabajosregistrar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Trabajosregistrarnombre.Trabajosregistrarnombre-fallback",
+      "affectedContexts": [
+        {
+          "name": "Trabajosregistrar-followup",
+          "lifespan": 4
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "No te encuentras registrado en esta clase 😐. Intenta nuevamente.",
+            "No podemos encontrar tu nombre 😞.",
+            "Tu nombre no coincide con ningún estudiante registrado en la clase 😢."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

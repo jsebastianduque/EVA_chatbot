@@ -1,0 +1,9 @@
+{
+  "id": "40f591ee-420e-47e8-a08a-222e1a0d0c22",
+  "name": "apellidos_estudiantes",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

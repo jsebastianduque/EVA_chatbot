@@ -1,0 +1,21 @@
+[
+  {
+    "id": "cffcfbbf-ca24-4ac5-b0e5-79a1785df865",
+    "data": [
+      {
+        "text": "Calificar ",
+        "userDefined": false
+      },
+      {
+        "text": "taller",
+        "meta": "@sys.number",
+        "alias": "NroSeguimiento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

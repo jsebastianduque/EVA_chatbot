@@ -1,0 +1,43 @@
+{
+  "id": "f37bc883-b6fe-412b-ae9a-e14497d9787b",
+  "name": "Trabajos.registrar.apellidos - fallback",
+  "contexts": [
+    "nombres-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Trabajosregistrarapellidos.Trabajosregistrarapellidos-fallback",
+      "affectedContexts": [
+        {
+          "name": "nombres-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Tu apellido no se encuentra registrado en la clase 😕. Intenta nuevamente.",
+            "Tu apellido no coincide con el de ningún estudiante 😐.",
+            "No estás registrado en la clase 😣."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

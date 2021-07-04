@@ -1,0 +1,25 @@
+[
+  {
+    "id": "5eb56460-fc50-402c-81ab-935909145781",
+    "data": [
+      {
+        "text": "Visualizar ",
+        "userDefined": false
+      },
+      {
+        "text": "talleres",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " por calificar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

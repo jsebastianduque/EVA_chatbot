@@ -1,0 +1,76 @@
+{
+  "id": "0eebd4ec-a4c9-4d93-962b-0dfb93c988a3",
+  "name": "Menu-estudiante",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "subtitle": "Elige una opción por favor",
+          "title": "¿Qué puedo hacer por ti?",
+          "buttons": [
+            {
+              "text": "Registrar trabajo"
+            },
+            {
+              "text": "Consultar nota"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "imageUrl": "https://trabajarporelmundo.org/wp-content/uploads/2017/06/las-mejores-web-para-encontrar-trabajo-remoto.jpg",
+          "subtitle": "Usted cuenta con las siguientes opciones",
+          "title": "Opciones",
+          "buttons": [
+            {
+              "postback": "Empezar Trámite",
+              "text": "Registrar trabajo"
+            },
+            {
+              "postback": "Estado trámite",
+              "text": "Consultar trabajo"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¡Genial! 👨‍💻"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,98 @@
+{
+  "id": "efda6958-cf6d-4847-b9b2-d12001110015",
+  "name": "Trabajos.registrar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Trabajosregistrar-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "12d7cb31-819f-4d11-b96d-c6bd17b63736",
+          "name": "Nombres",
+          "required": false,
+          "dataType": "@nombres_estudiantes",
+          "value": "$Nombres",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingresa tus nombres 👤"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4c3a5df6-38d6-4961-8511-d80a0330f81c",
+          "name": "Apellidos",
+          "required": false,
+          "dataType": "@apellidos_estudiantes",
+          "value": "$Apellidos",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingresa tus apellidos 🤖"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4856247d-fbcd-403e-9c78-592e18369944",
+          "name": "Archivo",
+          "required": false,
+          "dataType": "@sys.url",
+          "value": "$Archivo",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingresa el enlace donde se encuentra tu solicitud. \n❗ Si está en Google Drive, asegurate de conceder los permisos de lectura"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Por favor ingresa tu nombre."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

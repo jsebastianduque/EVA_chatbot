@@ -1,0 +1,54 @@
+[
+  {
+    "id": "dedd3669-a070-4a20-94f8-f8110c016e50",
+    "data": [
+      {
+        "text": "Trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "af01e06e-2c43-47df-a5df-1d555823da51",
+    "data": [
+      {
+        "text": "Enviar trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8b42f172-c809-41fa-ac6d-f2635cd0aa87",
+    "data": [
+      {
+        "text": "Crear trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ce429238-87e4-4a13-9a52-45c724677fb8",
+    "data": [
+      {
+        "text": "Registrar trabajo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

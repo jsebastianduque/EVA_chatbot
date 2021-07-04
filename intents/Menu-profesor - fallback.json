@@ -1,0 +1,41 @@
+{
+  "id": "ae9e3334-8a6b-4359-b4c1-d5dfed6f34f2",
+  "name": "Menu-profesor - fallback",
+  "contexts": [
+    "menu-profesor1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Menu-profesor.Menu-profesor-fallback",
+      "affectedContexts": [
+        {
+          "name": "menu-profesor1",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "⛔️ El código ingresado es incorrecto, por favor intenta nuevamente"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

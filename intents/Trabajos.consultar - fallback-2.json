@@ -1,0 +1,44 @@
+{
+  "id": "8befec14-38a9-44bc-b27f-33449daac221",
+  "parentId": "ee942808-1f63-4808-9eab-9a58ea51afd1",
+  "rootParentId": "ee942808-1f63-4808-9eab-9a58ea51afd1",
+  "name": "Trabajos.consultar - fallback-2",
+  "contexts": [
+    "Trabajosconsultar-followup",
+    "trabajos_rt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Trabajosconsultar.Trabajosconsultar-fallback-2",
+      "affectedContexts": [
+        {
+          "name": "Trabajosconsultar-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "⛔️ El código ingresado debe ser un código válido, intenta nuevamente."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

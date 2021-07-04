@@ -1,0 +1,74 @@
+{
+  "id": "1b735f4e-0f15-454e-b9ab-8fa4bdd450c5",
+  "name": "Menu-profesor2",
+  "auto": true,
+  "contexts": [
+    "menu-profesor1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "menu-profesor2",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c89ec7b0-ec28-4dd5-8710-86f65a2f1198",
+          "name": "code",
+          "required": true,
+          "dataType": "@teacher_code",
+          "value": "$code",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "subtitle": "Por favor selecciona una opción.",
+          "title": "¿Qué puedo hacer por ti?",
+          "buttons": [
+            {
+              "text": "Visualizar talleres por calificar"
+            },
+            {
+              "text": "Calificar taller"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "e63d0fcf-9b76-4ce7-842b-4b0d33174d8f",
+    "data": [
+      {
+        "text": "Buen día",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7594ae34-6f71-482a-ba68-3cda3dd6eb00",
+    "data": [
+      {
+        "text": "Buenas tardes",
+        "meta": "@sys.music-artist",
+        "alias": "music-artist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "9029b397-41d0-4006-959a-75e8ba0878cc",
+    "data": [
+      {
+        "text": "Buenas noches",
+        "meta": "@sys.music-artist",
+        "alias": "music-artist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "cfb00c30-d330-42ad-9b1c-7739b04729a1",
+    "data": [
+      {
+        "text": "Buenos días",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "629f587d-f78c-42ba-abf1-e8ff46737da6",
+    "data": [
+      {
+        "text": "Hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b89477c8-2135-4716-b2f0-41c157c8ef1b",
+    "data": [
+      {
+        "text": "Buenas",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bd345265-f4eb-4f93-adea-23f1d24cdc40",
+    "data": [
+      {
+        "text": "Holi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "38752463-7788-4db1-813f-b8aff025a858",
+    "data": [
+      {
+        "text": "Hola",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

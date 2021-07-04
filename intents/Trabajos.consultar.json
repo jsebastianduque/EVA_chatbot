@@ -1,0 +1,61 @@
+{
+  "id": "ee942808-1f63-4808-9eab-9a58ea51afd1",
+  "name": "Trabajos.consultar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Trabajosconsultar-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "trabajos_rt",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9f400c9b-7316-4559-813b-2f0f57bec5ef",
+          "name": "NroSeguimiento",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$NroSeguimiento",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor ingresa el número de seguimiento del taller."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

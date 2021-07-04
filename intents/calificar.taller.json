@@ -1,0 +1,76 @@
+{
+  "id": "7a61edb4-6769-45c1-bfe8-0d23394f70cf",
+  "name": "calificar.taller",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "calificar-taller",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7ffd74ca-2141-4013-9bed-84357f98e000",
+          "name": "NroSeguimiento",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$NroSeguimiento",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor ingresa el número de seguimiento del taller."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0dc1e339-6dd5-4b05-a52f-1993919e8a24",
+          "name": "Nota",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$Nota",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por favor ingresa la nota (de 0 a 5) la nota asociada al taller."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

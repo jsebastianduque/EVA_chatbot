@@ -1,0 +1,242 @@
+[
+  {
+    "id": "53918a53-de3d-4698-811a-be72f6f99b90",
+    "data": [
+      {
+        "text": "Manuel Fernando",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e0b240cc-0c8f-4d7a-91c8-c1e4999d141c",
+    "data": [
+      {
+        "text": "Alejandro",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "35b78f3f-ea6d-4a7b-b2cc-d323122efbf2",
+    "data": [
+      {
+        "text": "Diana Marcela",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "7025ca5b-72e6-408c-8ebe-869f37f93cb4",
+    "data": [
+      {
+        "text": "Juan Pablo",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "b88aad56-4b3e-4195-9f45-7ab2e4683267",
+    "data": [
+      {
+        "text": "Julian Andres",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f16b10d2-d726-4fcf-8cd3-bb4caec4b6ca",
+    "data": [
+      {
+        "text": "Jessica",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2488945a-d66a-4b97-b542-343f31a672e3",
+    "data": [
+      {
+        "text": "Andrea",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "f486a615-ae85-4e9c-9026-6dd94eb05d38",
+    "data": [
+      {
+        "text": "Jorge Mario",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8717086b-e179-425c-8cab-b6975cf78be3",
+    "data": [
+      {
+        "text": "Leonardo",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "462c17f9-0bbd-43cf-8db2-8414c66b0b1b",
+    "data": [
+      {
+        "text": "Kevin Andres",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bace7d87-4fd5-4180-9fcf-94b54dca66e4",
+    "data": [
+      {
+        "text": "Felipe Andres",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "845ac93a-a4ce-4b6f-85f3-3c720f0dcde3",
+    "data": [
+      {
+        "text": "José Gustavo",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "e94cfbb2-20d2-4962-bcc3-1d0997467fb7",
+    "data": [
+      {
+        "text": "Cristian Fernando",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "16b01fe7-1168-4ac9-95a9-b892dc40056f",
+    "data": [
+      {
+        "text": "Laura Vanessa",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "ae858b39-d684-4cf8-8bc0-201d3a70193e",
+    "data": [
+      {
+        "text": "Cristian Camilo",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3d08a24c-a547-4f5e-83f0-c16dfc82a5f6",
+    "data": [
+      {
+        "text": "Juan Sebastian",
+        "meta": "@nombres_estudiantes",
+        "alias": "nombres",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

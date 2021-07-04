@@ -1,0 +1,75 @@
+{
+  "id": "f79b481a-8296-46a5-9622-f51236c48832",
+  "name": "Trabajos.registrar.apellidos",
+  "auto": true,
+  "contexts": [
+    "nombres-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "apellidos-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "Trabajosregistrarapellidos-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cda6abdc-75ab-458d-86d5-9a9459f317be",
+          "name": "apellidos_estudiantes",
+          "required": true,
+          "dataType": "@apellidos_estudiantes",
+          "value": "$apellidos_estudiantes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0533f52c-1ba1-48fa-ab77-dda01fa334f2",
+          "name": "last-name",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "value": "$last-name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Ingresa el enlace donde se encuentra tu solicitud. \n❗ Si está en Google Drive, asegúrate de conceder los permisos de lectura"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
